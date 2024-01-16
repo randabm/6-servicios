@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+
         #contenedor {
             display: flex;
             flex-wrap: wrap;
@@ -22,6 +28,21 @@
             text-align: center;
             color:brown;
         }
+        /*moviles*/
+        @media (max-width:600px){
+            .servicio{
+                width: 100%;
+            }
+        }
+        /*tablets*/
+        @media  (min-width:601px) and (max-width:800px){
+            .servicio{
+                width: 50%;
+            }
+            
+        }
+
+
 
 
     </style>
